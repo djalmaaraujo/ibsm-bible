@@ -1,0 +1,130 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset="UTF-8" />
+			<title>jQT.Location</title>
+			<style type="text/css" media="screen">@import "assets/themes/css/jqtouch.css";</style>
+			<style type="text/css" media="screen">@import "assets/css/application.css";</style>
+			<script src="assets/src/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="assets/src/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="assets/src/phonegap-1.3.0.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript" charset="utf-8">
+				var jQT = new $.jQTouch({
+					addGlossToIcon: false,
+					statusBar: 'black-translucent'
+				});
+			</script>
+		</head>
+	<body>
+		<div id="jqt">
+			<div id="page-home">
+				<div class="toolbar"><h1>Bíblia IBSM</h1><a href="#page-config" class="button"><img src="assets/images/icons/ico-config.png" alt="" width="20" /></a></div>
+				<ul>
+					<li class="bt-books"><a href="#page-books"><img src="assets/images/icons/ico-books.png" alt="" /> <br />Livros</a></li>
+					<li class="bt-search"><a href="#page-search"><img src="assets/images/icons/ico-search.png" alt="" /> <br />Busca</a></li>
+					<li class="bt-favorites"><a href="#page-favorites"><img src="assets/images/icons/ico-fav.png" alt="" /> <br />Favoritos</a></li>
+					<li class="bt-ibsm"><a href="#page-ibsm"><img src="assets/images/icons/ico-church.png" alt="" /> <br />IBSM</a></li>
+				</ul>
+			</div>
+			
+			<div id="page-books">
+				<div class="toolbar"><h1>Livros</h1><a href="#home" class="back">Voltar</a></div>
+				<ul class="edgetoedge scroll">
+					<li class="sep">Antigo testamento</a></li>
+						<li class="forward"><a href="#">Gênesis</a></li>
+						<li class="forward"><a href="#">Êxodo</a></li>
+						<li class="forward"><a href="#">Levítico</a></li>
+						<li class="forward"><a href="#">Números</a></li>
+						<li class="forward"><a href="#">Deuteronômio</a></li>
+						<li class="forward"><a href="#">Josué</a></li>
+						<li class="forward"><a href="#">Juízes</a></li>
+						<li class="forward"><a href="#">Rute</a></li>
+						<li class="forward"><a href="#">Samuel</a></li>
+						<li class="forward"><a href="#">Reis</a></li>
+						<li class="forward"><a href="#">Crônicas</a></li>
+						<li class="forward"><a href="#">Esdras</a></li>
+						<li class="forward"><a href="#">Neemias</a></li>
+						<li class="forward"><a href="#">Ester</a></li>
+						<li class="forward"><a href="#">Jó</a></li>
+						<li class="forward"><a href="#">Salmos</a></li>
+						<li class="forward"><a href="#">Provérbios</a></li>
+						<li class="forward"><a href="#">Eclesiastes</a></li>
+						<li class="forward"><a href="#">Cantares</a></li>
+						<li class="forward"><a href="#">Isaias</a></li>
+						<li class="forward"><a href="#">Jeremias</a></li>
+						<li class="forward"><a href="#">Lamentações</a></li>
+						<li class="forward"><a href="#">Ezequiel</a></li>
+						<li class="forward"><a href="#">Daniel</a></li>
+						<li class="forward"><a href="#">Oséias</a></li>
+						<li class="forward"><a href="#">Joel</a></li>
+						<li class="forward"><a href="#">Amós</a></li>
+						<li class="forward"><a href="#">Obadias</a></li>
+						<li class="forward"><a href="#">Jonas</a></li>
+						<li class="forward"><a href="#">Miquéias</a></li>
+						<li class="forward"><a href="#">Naum</a></li>
+						<li class="forward"><a href="#">Habacuque</a></li>
+						<li class="forward"><a href="#">Sofonias</a></li>
+						<li class="forward"><a href="#">Ageu</a></li>
+						<li class="forward"><a href="#">Zacarias</a></li>
+						<li class="forward"><a href="#">Malaquias.</a></li>
+
+					<li class="sep">Novo testamento</a></li>
+					<li class="forward"><a href="#">Mateus</a></li>
+					<li class="forward"><a href="#">Marcos</a></li>
+					<li class="forward"><a href="#">Lucas</a></li>
+					<li class="forward"><a href="#">João</a></li>
+					<li class="forward"><a href="#">Atos</a></li>
+					<li class="forward"><a href="#">Romanos</a></li>
+					<li class="forward"><a href="#">Coríntios I</a></li>
+					<li class="forward"><a href="#">Corinitios II</a></li>
+					<li class="forward"><a href="#">Gálatas</a></li>
+					<li class="forward"><a href="#">Efésios</a></li>
+					<li class="forward"><a href="#">Filipenses</a></li>
+					<li class="forward"><a href="#">Colossenses</a></li>
+					<li class="forward"><a href="#">I aos Tessalonicenses</a></li>
+					<li class="forward"><a href="#">II aos Tessalonicenses</a></li>
+					<li class="forward"><a href="#">I Timóteo</a></li>
+					<li class="forward"><a href="#">II Timóteo</a></li>
+					<li class="forward"><a href="#">Tito</a></li>
+					<li class="forward"><a href="#">Filemom</a></li>
+					<li class="forward"><a href="#">Hebreus</a></li>
+					<li class="forward"><a href="#">Tiago</a></li>
+					<li class="forward"><a href="#">I Pedro</a></li>
+					<li class="forward"><a href="#">II Pedro</a></li>
+					<li class="forward"><a href="#">I João</a></li>
+					<li class="forward"><a href="#">II João</a></li>
+					<li class="forward"><a href="#">III João</a></li>
+					<li class="forward"><a href="#">Judas</a></li>
+					<li class="forward"><a href="#">Apocalipse (Revelação). </a></li>
+				</ul>
+			</div>
+			
+			<div id="page-favorites" class="notransform">
+					<div class="toolbar"><h1>Favoritos</h1>
+					<a href="#" class="back flip">Voltar</a></div>
+					<ul class="plastic scroll">
+						<li class="arrow"><a href="#">Simple list <small>Label</small></a></li>
+						<li class="arrow"><a href="#">Contact list... <small class="counter">Mt, 25</small></a></li>
+						<li class="forward"><a href="#">Content List</a></li>
+						<li><a href="#">Metal list</a></li>
+					</ul>
+			</div>
+			
+			<div id="page-ibsm" class="notransform">
+					<div class="toolbar"><h1>IBSM</h1>
+					<a href="#" class="back flip">Voltar</a></div>
+			</div>
+			
+			<div id="page-search" class="notransform">
+					<div class="toolbar"><h1>Busca</h1>
+					<a href="#" class="back flip">Voltar</a></div>
+					
+			</div>
+			
+			<div id="page-config" class="notransform">
+					<div class="toolbar"><h1>Configurações</h1>
+					<a href="#" class="back flip">Voltar</a></div>
+			</div>
+		</div>
+	</body>
+</html>

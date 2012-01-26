@@ -1,0 +1,8 @@
+#page-home {}
+#page-home ul {}
+#page-home li {width: 125px; float: left; height: 125px; text-align: center;}
+#page-home li img {width: 90px}
+#page-home li.bt-books {}
+#page-home li.bt-search {}
+#page-home li.bt-favorites {}
+#page-home li.bt-ibsm {}
